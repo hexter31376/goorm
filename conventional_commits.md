@@ -4,18 +4,18 @@
 ---
 ### 기본 포맷
 ```
-<이슈번호> <커밋 타입>(<수정 범위 스코프>): <변경 내용>
+<커밋 타입>(<수정 범위 스코프>): <변경 내용> (<이슈번호>)
 - <상세 설명> <- 필요시에만 (가급적 이슈에 정리 요망)
 ```
 
 ```
 예시 1
-#2 feat(member): 회원 가입 기능 구현
-#3 fix(auth): JWT 만료 시간 오류 수정
-#1 chore(build): Gradle 의존성 정리
+feat(member): 회원 가입 기능 구현 (#2)
+fix(auth): JWT 만료 시간 오류 수정 (#3)
+chore(build): Gradle 의존성 정리 (#1)
 
 예시 2
-#2 feat(member): 회원가입 API 구현
+feat(member): 회원가입 API 구현 (#2)
 
 - MemberService에서 create 메서드 구현
 - 이메일 중복 체크 추가
