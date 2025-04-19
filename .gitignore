@@ -1,0 +1,75 @@
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === System Files ===
+ehthumbs.db
+Icon?
+Thumbs.db
+Desktop.ini
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === Eclipse (혹시라도 쓴다면) ===
+.project
+.classpath
+.settings/
+bin/
+target/
+
+# === VS Code ===
+.vscode/
+
+# === Gradle ===
+.gradle/
+build/
+!**/src/main/**
+!**/src/test/**
+
+# === Maven ===
+target/
+
+# === Logs ===
+*.log
+
+# === Environment ===
+.env
+*.env
+
+# === Test Reports ===
+test-output/
+reports/
+
+# === OS-Specific ===
+*.swp
+*.swo
+*~
+
+# === Package Management ===
+node_modules/
+package-lock.json
+yarn.lock
+
+# === Others ===
+*.tmp
+*.bak
+*.backup
+*.old
+
+# === Spring Boot ===
+# (만약 spring-boot:repackage 결과물인 fat jar를 제외하려면)
+*.jar
+*.war
+
+# === Docker ===
+*.pid
+*.seed
+docker-compose.override.yml
+
+# === Git ===
+*.orig
