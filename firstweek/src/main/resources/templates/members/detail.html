@@ -1,0 +1,16 @@
+<!-- templates/members/detail.html -->
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>회원 상세</title>
+</head>
+<body>
+<h1>회원 정보</h1>
+
+<p>이름: <span th:text="${member.name}"></span></p>
+<p>이메일: <span th:text="${member.email}"></span></p>
+
+<a th:href="@{/members}">← 목록으로</a>
+</body>
+</html>

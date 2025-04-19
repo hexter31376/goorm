@@ -1,0 +1,16 @@
+<!-- templates/members/create.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8"><title>회원 등록</title></head>
+<body>
+<h1>회원 등록</h1>
+
+<form action="#" th:action="@{/members}" th:object="${memberForm}" method="post">
+    <label>이름: <input type="text" th:field="*{name}" /></label><br/>
+    <label>이메일: <input type="email" th:field="*{email}" /></label><br/>
+    <button type="submit">등록</button>
+</form>
+
+<a th:href="@{/members}">← 목록으로</a>
+</body>
+</html>
